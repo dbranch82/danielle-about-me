@@ -17,9 +17,23 @@
 			specific dietary modifications.</p>
 		<p><strong>Technology:</strong> Uses windows 8 probook when she is dealing with business or in office and a newer Samsung 8 for
 			day to day life.</p>
-		<p><strong>Attitudes and Behaviors:</strong>Sara is fully dedicated to her four children and her business. Saras' main focus
+		<p><strong>Attitudes and Behaviors:</strong> Sara is fully dedicated to her four children and her business. Saras' main focus
 		is on her children and her business she will spend as much time as needed to find the right fit for her company. She is looking
 		for a personal connection. Experience is as importsnt as character to her.</p>
-		<p><strong>Frustrations and Needs:</strong></p>
+		<p><strong>Frustrations and Needs:</strong> Sara is looking to hire someone who understands her as a person and her vision
+		for her business. Sara is frustrated with all of the template web development companies and is really looking for something more
+		personal that is not charging $10,000 as it is outside of the company budget.</p>
+		<p><strong>Goals:</strong> Sara is looking to make sure the web developer is personable and can develop her website with Sara only
+		providing a rough draft.</p>
+		<p><strong>User Story:</strong> As a user, I need to see if this person is someone with whom I can relate to in some way and
+		whether they meet the basic requirements.</p>
+
+		<h2><strong>Use Case</strong></h2>
+		<p>Sara Smith has been surfing the web looking for a web development company to build her website. She really liked my
+		companies web site at initial inspection.</p>
+		<p>Sara is interested in multiple web sites however she is looking for a more personal connection so she is taking time during
+		her lunch to look through the websites about mes'.</p>
+		<p>It is Monday and she would like to get in touch with her top pick by Wednesday. She has narrowed it down to six web developent
+			companies. Sara has plenty of time and will be looking through the candidates personal pages and social media accounts.</p>
 	</body>
 </html>
