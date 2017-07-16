@@ -5,6 +5,7 @@
 		<title>danielle-about-me</title>
 	</head>
 	<body>
+		<!-----Added late, made list------>
 		<h1><strong>Purpose, Audience, Goal</strong></h1>
 		<p><strong>Purpose</strong></p>
 		<p>I would like my PWP to help me let users of my website get to know me not only as a professional put also on a
@@ -19,7 +20,7 @@
 			they otherwise would not be able to afford</li>
 			<li>To act as an about me page for my companies website</li>
 			<li>To attract small businesses</li>
-		</ul><h1>id=page header>Meet Sara</h1>
+		</ul><h1>Meet Sara</h1>
 		<img src="images/sarapic.jpg" alt="sara picture"/>
 		<h1>Persona</h1>
 		<p><strong>Name:</strong> Sara Smith</p>
