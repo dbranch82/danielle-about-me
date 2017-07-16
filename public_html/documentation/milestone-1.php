@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<!--Centered picture and H1 tags-->
 		<style>h1 {text-align:center</style>
 		<meta charset="utf-8"/>
 		<title>danielle-about-me</title>
 	</head>
 	<body>
-		<!-----Added late, made list------>
+		<!--Added late, made list-->
 		<h1><strong>Purpose, Audience, Goal</strong></h1>
 		<p><strong>Purpose</strong></p>
 		<p>I would like my PWP to help me let users of my website get to know me not only as a professional put also on a
