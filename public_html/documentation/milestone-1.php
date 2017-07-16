@@ -2,9 +2,25 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
-		<title>About Sara</title>
+		<title>danielle-about-me</title>
 	</head>
 	<body>
+		<h1><strong>Purpose, Audience, Goal</strong></h1>
+		<p><strong>Purpose</strong></p>
+		<p>I would like my PWP to help me let users of my website get to know me not only as a professional put also on a
+		personal level.</p>
+		<p><strong>Audience</strong></p>
+		<p>My potential audience is businesses looking to have a website developed/designed and also community resources looking for
+		personal websites for people that can benefit but do not have the means to obtain one.</p>
+		<p><strong>Goal</strong></p>
+		<ul>
+			<li>To find projects from like minded people</li>
+			<li>To attract lower income individuals through community agencies that have marketable skills build personal websites
+			they otherwise would not be able to afford</li>
+			<li>To act as an about me page for my companies website</li>
+			<li>To attract small businesses</li>
+		</ul>
+
 		<h1 id="page header">Meet Sara</h1>
 		<img src="images/sarapic.jpg" alt="sara picture"/>
 		<h1>Persona</h1>
@@ -37,3 +53,4 @@
 			companies. Sara has plenty of time and will be looking through the candidates personal pages and social media accounts.</p>
 	</body>
 </html>
+
