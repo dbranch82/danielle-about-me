@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<style>h1 {text-align:center</style>
 		<meta charset="utf-8"/>
 		<title>danielle-about-me</title>
 	</head>
@@ -21,7 +22,7 @@
 			<li>To act as an about me page for my companies website</li>
 			<li>To attract small businesses</li>
 		</ul><h1>Meet Sara</h1>
-		<img src="images/sarapic.jpg" alt="sara picture"/>
+		<img style="margin:0 auto;display: block" src="images/sarapic.jpg" alt="sara picture"/>
 		<h1>Persona</h1>
 		<p><strong>Name:</strong> Sara Smith</p>
 		<p><strong>Age:</strong> 32</p>
@@ -43,7 +44,7 @@
 		<p><strong>User Story:</strong> As a user, I need to see if this person is someone with whom I can relate to in some way and
 		whether they meet the basic requirements.</p>
 
-		<h2><strong>Use Case</strong></h2>
+		<h1><strong>Use Case</strong></h1>
 		<p>Sara Smith has been surfing the web looking for a web development company to build her website. She really liked my
 		companies web site at initial inspection.</p>
 		<p>Sara is interested in multiple web sites however she is looking for a more personal connection so she is taking time during
