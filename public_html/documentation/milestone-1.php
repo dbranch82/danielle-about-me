@@ -19,9 +19,7 @@
 			they otherwise would not be able to afford</li>
 			<li>To act as an about me page for my companies website</li>
 			<li>To attract small businesses</li>
-		</ul>
-
-		<h1 id="page header">Meet Sara</h1>
+		</ul><h1>id=page header>Meet Sara</h1>
 		<img src="images/sarapic.jpg" alt="sara picture"/>
 		<h1>Persona</h1>
 		<p><strong>Name:</strong> Sara Smith</p>
