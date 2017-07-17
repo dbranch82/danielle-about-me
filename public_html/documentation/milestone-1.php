@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<!--Centered picture and H1 tags-->
-		<style>h1 {text-align:center</style>
+		<style>h1 {text-align:center</style>}
 		<meta charset="utf-8"/>
 		<title>danielle-about-me</title>
 	</head>
