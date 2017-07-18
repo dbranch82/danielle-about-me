@@ -9,19 +9,19 @@
 		<p>The first page will consist of two sections</p>
 		<ul>
 			<li>Welcome</li>
-			<p>A small introduction that clearly defines my role within my company</p>
+			<li style="list-style: none;">A small introduction that clearly defines my role within my company</li>
 			<li>Portfolio</li>
-			<p>A showcase of my professional work and the work I have done for charity within my company, it will list under each project
-			what technology I used for each project</p>
+			<li style="list-style: none;" >A showcase of my professional work and the work I have done for charity within my company, it will list under each project
+			what technology I used for each project</li>
 		</ul>
 		<p>The second page will also consist of two sections</p>
 		<ul>
 			<li>About me</li>
-			<p>A more indepth bio that explains not only who I am as a developer but also who I am as a person. I think that the
-			whole about me section should be really casual as to build a relationship with the user</p>
+			<li style="list-style: none;" >A more indepth bio that explains not only who I am as a developer but also who I am as a person. I think that the
+			whole about me section should be really casual as to build a relationship with the user</li>
 			<li>Contact Me</li>
-			<p>A small contact form that will basically just link back to the company website. I will also have icons of my social
-			media sites. </p>
+			<li style="list-style: none;">A small contact form that will basically just link back to the company website. I will also have icons of my social
+			media sites. </li>
 		</ul>
 	</body>
 </html>
