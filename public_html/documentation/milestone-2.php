@@ -4,14 +4,24 @@
 		<title>milestone-2</title>
 	</head>
 	<body>
-		<h1><strong>Content</strong></h1>
-		<p>I want to use one picture as a focal point to highlight what I do and who I am.</p>
-		<p>I would like to use my photo inside my main photo as a link to reach the text of my about me.</p>
-		<p>I want to use links to lead clients to my social networks</p>
-		<h1><strong>Purpose and Strategy</strong></h1>
-		<p>I think a simple user experience with something like a photo inside a photo and links to my github and linkedin will
-		let my work speak for itself.</p>
-		<p>I think as my company will have a focus on charity that my about me needs to also include personal getting to know me info
-		that way my clients can feel some sort of connection to the person they will be partnering with.</p>
+		<h1><strong>Content Strategy</strong></h1>
+		<p>My site will consist of two pages</p>
+		<p>The first page will consist of two sections</p>
+		<ul>
+			<li>Welcome</li>
+			<p>A small introduction that clearly defines my role within my company</p>
+			<li>Portfolio</li>
+			<p>A showcase of my professional work and the work I have done for charity within my company, it will list under each project
+			what technology I used for each project</p>
+		</ul>
+		<p>The second page will also consist of two sections</p>
+		<ul>
+			<li>About me</li>
+			<p>A more indepth bio that explains not only who I am as a developer but also who I am as a person. I think that the
+			whole about me section should be really casual as to build a relationship with the user</p>
+			<li>Contact Me</li>
+			<p>A small contact form that will basically just link back to the company website. I will also have icons of my social
+			media sites. </p>
+		</ul>
 	</body>
 </html>
