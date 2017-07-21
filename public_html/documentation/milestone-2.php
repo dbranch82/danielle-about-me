@@ -24,5 +24,7 @@
 			<li>A small contact form that will basically just link back to the company website. I will also have icons of my social
 			media sites. </li>
 		</ul>
+		<h1>My Wire frames for web and mobile design</h1>
+		<img style="margin:0 auto;display: block" src="images/Webwireframe.jpg" alt="web wire frame"/>
 	</body>
 </html>
