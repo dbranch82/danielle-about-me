@@ -15,11 +15,13 @@
 			<li>A showcase of my professional work and the work I have done for charity within my company, it will list under each project
 			what technology I used for each project</li>
 		</ul>
-		<p>The second page will also consist of two sections</p>
+		<p>The second section</p>
 			<p>About me</p>
 			<ul>
 			<li>A more indepth bio that explains not only who I am as a developer but also who I am as a person. I think that the
 			whole about me section should be really casual as to build a relationship with the user</li>
+				<li>Testamonials</li>
+				<li>Where clients whom I have partnered with can leave feedback</li>
 			<li>Contact Me</li>
 			<li>A small contact form that will basically just link back to the company website. I will also have icons of my social
 			media sites. </li>
