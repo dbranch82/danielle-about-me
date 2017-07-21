@@ -26,5 +26,7 @@
 		</ul>
 		<h1>My Wire frames for web and mobile design</h1>
 		<img style="margin:0 auto;display: block" src="images/Webwireframe.jpg" alt="web wire frame"/>
+		<p>Cell wire frame</p>
+		<img style="margin:0 auto;display: block" src="images/Cellwireframe.jpg" alt="cell wire frame"/>
 	</body>
 </html>
