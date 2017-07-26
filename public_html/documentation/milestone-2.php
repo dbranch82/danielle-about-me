@@ -26,5 +26,13 @@
 		<p>This section will have a small "I'd love to work with you blurb" along side a simple contact me form.
 		At the bottom of this page will have links to my social media and also a phone icon for people that would prefer
 		direct contact.</p>
+		<h2>Web wireframe</h2>
+		<img style="margin:0 auto;display: block" src="images/page1wireframe.png" alt="page 1 web wireframe"/>
+		<img style="margin:0 auto;display: block" src="images/page2wireframe.png" alt="page 2 web wireframe"/>
+		<img style="margin:0 auto;display: block" src="images/page3wireframe.png" alt="page 3 web wireframe"/>
+		<img style="margin:0 auto;display: block" src="images/page4wireframe.png" alt="page 4 web wireframe"/>
+		<h2>Cell phone wireframe</h2>
+		<img style="margin:0 auto;display: block" src="images/cellphonewfpage1.png" alt="page 1 cell wireframe"/>
+		<img style="margin:0 auto;display: block" src="images/cellphonewfpage2.png" alt="page 2 cell wireframe"/>
 	</body>
 </html>
