@@ -14,6 +14,7 @@
 		<p>A more indepth section that is seperated into three paragraphs. This will be set up in an F pattern. There will
 		also be an up arrow in bottom right corner allowing user to return to Welcome section. These three paragraphs will
 		be a light getting to know me because I would like to partner with clients that are a good fit for me and my business.
+		<ul>
 				<li>As a Developer</li>
 				<li>As a business owner</li>
 			<li>As a person</li>
