@@ -12,13 +12,14 @@
 		that will allow users to instantly jump to specific sections.</p>
 		<h1>The About Me section</h1>
 		<p>A more indepth section that is seperated into three paragraphs. This will be set up in an F pattern. There will
-		also be an up arrow in bottom right corner allowing user to return to Welcome section.
+		also be an up arrow in bottom right corner allowing user to return to Welcome section. These three paragraphs will
+		be a light getting to know me because I would like to partner with clients that are a good fit for me and my business.
 				<li>As a Developer</li>
 				<li>As a business owner</li>
 			<li>As a person</li>
 		</ul>
 		<h1>The Testimonial/Project section</h1>
-		<p>This section will have pictures of my work with a small blurb underneath with comment from client. There will
+		<p>This section will have pictures of my work with a small blurb underneath with comments from clients I have partnered with. There will
 		also be an up arrow in bottom right hand corner allowing user to return to Welcome Page.</p>
 		<h1>The Contact me section</h1>
 		<p>This section will have a small "I'd love to work with you blurb" along side a simple contact me form.
