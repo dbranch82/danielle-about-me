@@ -34,5 +34,6 @@
 		<h2>Cell phone wireframe</h2>
 		<img style="margin:0 auto;display: block" src="images/cellphonewfpage1.png" alt="page 1 cell wireframe"/>
 		<img style="margin:0 auto;display: block" src="images/cellphonewfpage2.png" alt="page 2 cell wireframe"/>
+
 	</body>
 </html>
