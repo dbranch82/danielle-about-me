@@ -5,31 +5,24 @@
 
 	</head>
 	<body>
-		<h1><strong>Content Strategy</strong></h1>
-		<p>My site will consist of two pages</p>
-		<p>The first page will consist of two sections</p>
-			<p>Welcome</p>
-		<ul>
-			<li>A small introduction that clearly defines my role within my company</li>
-			<li>Portfolio</li>
-			<li>A showcase of my professional work and the work I have done for charity within my company, it will list under each project
-			what technology I used for each project</li>
+		<h1>Content Strategy</h1>
+		<p>My site will be a way for my customers to get to know who I am as a developer. While having a way to see my work visually.</p>
+			<h1>Welcome Section</h1>
+		<p>This will have an image of myself with my name and titles. There will also be a menu button in the top left corner
+		that will allow users to instantly jump to specific sections.</p>
+		<h1>The About Me section</h1>
+		<p>A more indepth section that is seperated into three paragraphs. This will be set up in an F pattern. There will
+		also be an up arrow in bottom right corner allowing user to return to Welcome section.
+				<li>As a Developer</li>
+				<li>As a business owner</li>
+			<li>As a person</li>
 		</ul>
-		<p>The second section</p>
-			<p>About me</p>
-			<ul>
-			<li>A more indepth bio that explains not only who I am as a developer but also who I am as a person. I think that the
-			whole about me section should be really casual as to build a relationship with the user</li>
-				<li>Testamonials</li>
-				<li>Where clients whom I have partnered with can leave feedback</li>
-			<li>Contact Me</li>
-			<li>A small contact form that will basically just link back to the company website. I will also have icons of my social
-			media sites. </li>
-		</ul>
-		<h1>My Wire frames for web and mobile design</h1>
-		<p>Web wire frame</p>
-		<img style="margin:0 auto;display: block" src="images/Webwireframe.jpg" alt="web wire frame"/>
-		<p>Cell wire frame</p>
-		<img style="margin:0 auto;display: block" src="images/Cellwireframe.jpg" alt="cell wire frame"/>
+		<h1>The Testimonial/Project section</h1>
+		<p>This section will have pictures of my work with a small blurb underneath with comment from client. There will
+		also be an up arrow in bottom right hand corner allowing user to return to Welcome Page.</p>
+		<h1>The Contact me section</h1>
+		<p>This section will have a small "I'd love to work with you blurb" along side a simple contact me form.
+		At the bottom of this page will have links to my social media and also a phone icon for people that would prefer
+		direct contact.</p>
 	</body>
 </html>
