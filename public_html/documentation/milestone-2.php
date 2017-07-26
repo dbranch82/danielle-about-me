@@ -6,14 +6,13 @@
 	</head>
 	<body>
 		<h1>Content Strategy</h1>
-		<p>My site will be a way for my customers to get to know who I am as a developer. While having a way to see my
-			work visually.</p>
+		<p>My site will be a way for my customers to get to know who I am as a developer.</p>
 		<h1>Welcome Section</h1>
 		<p>This will have an image of myself with my name and titles. There will also be a menu button in the top left
 			corner
 			that will allow users to instantly jump to specific sections.</p>
 		<h1>The About Me section</h1>
-		<p>A more indepth section that is seperated into three paragraphs. This will be set up in an F pattern. There will
+		<p>A more in depth section that is separated into three paragraphs. This will be set up in an F pattern. There will
 			also be an up arrow in bottom right corner allowing user to return to Welcome section. These three paragraphs
 			will
 			be a light getting to know me because I would like to partner with clients that are a good fit for me and my
@@ -40,6 +39,5 @@
 		<h2>Cell phone wireframe</h2>
 		<img style="margin:0 auto;display: block" src="images/cellphonewfpage1.png" alt="page 1 cell wireframe"/>
 		<img style="margin:0 auto;display: block" src="images/cellphonewfpage2.png" alt="page 2 cell wireframe"/>
-
 	</body>
 </html>
