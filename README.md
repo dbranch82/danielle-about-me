@@ -12,3 +12,28 @@ Your Milestone 1 passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/pe
 ### Edits &amp; Suggestions
 - Going forward, we strongly prefer using _external stylesheets_ over inline styles and styles included in the &lt;head&gt; tag. We haven't covered this yet - so don't sweat it, not holding this against you. we'll be covering this topic in depth in the CSS lectures this week.
 - CSS rule on line 5 is missing the closing "}"
+
+## Milestone 2&alpha; Feedback
+Nice work - what you've created here will serve you as an effective guide for your development phase going forward. On Monday, I'll be covering the Bootstrap Challenge solution, along with tips for customizing Bootstrap's default appearance using CSS. 
+
+I take note of the style of navigation that you have in your wireframe... there is no hidden "drawer-style" navigation component included in Bootstrap, so you'll need to look for an alternative way to build for your navigation in this style. Have a look at these jQuery-driven solutions:
+
+- http://git.blivesta.com/drawer/
+- https://slideout.js.org/
+- https://simple-sidebar.github.io/simpler-sidebar/
+
+For your back to top button, have a look at the one I created for bootcamp coders - it's made using jQuery. Have a look at the code here: https://bootcamp-coders.cnm.edu/lib/js/custom.js
+
+(We'll be going over JavaScript soon!)
+
+The Bootstrap thumbnail component might be a useful, albeit simple, solution for your gallery items: http://getbootstrap.com/components/#thumbnails
+
+I recommend FontAwesome for iconography, and Google Fonts for custom typography.
+
+Take a look at this method for creating phone links (for your phone icon at the bottom): https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#Creating_a_phone_link
+
+Your Milestone 2a passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/personal/rubric/). You are clear to begin development on your PWP. You'll want to build your PWP page in the following location: `public_html/index.php`, and the next Milestone will be a mid-development checkin.
+
+### Edits &amp; Suggestions
+- Missing `<meta charset="utf-8">` tag
+- Avoid inline CSS whenever possible.
