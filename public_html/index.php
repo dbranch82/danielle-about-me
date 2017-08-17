@@ -41,7 +41,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#">Title</a>
+			<a class="navbar-brand" href="#">Home</a>
 		</div>
 		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav navbar-right">
@@ -51,18 +51,14 @@
 				<li><a href="#">Link 4</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
-			<div class="row">
-				<div class="col-xs-12">
-					<div class="jumbotron">
-						<div class="container"
-						<h1>Hello, World!</h1>
-						<p>Hammock slow-carb hell of waistcoat umami adaptogen butcher salvia cronut irony raw denim la croix
-							kale chips.</p>
-						<button class="btn btn-primary">Click Me!</button>
-					</div>
-				</div>
+		<div>
+			<div class="bgimg"></div>
+			<div class="caption">
+				<span class="border">
+
+					<img src="documentation/images/web.jpg" alt=gangsta/>
+				</span>
 			</div>
-		<div class="col-sm-6 banner-image wow fadeInUp">
-			<img src="gangsta.png" alt="Yadayadayada" />
 		</div>
+
 	</body>

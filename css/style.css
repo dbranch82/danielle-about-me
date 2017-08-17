@@ -1,0 +1,38 @@
+
+
+
+.bgimg-1 {
+	min-height: 100%;
+	background: url("../public_html/documentation/images/web.jpg") no-repeat center center;
+	height: 100vh;
+	background-attachment: fixed;
+}
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+.caption span.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+.bgimg-1 {
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+	div#bs-example-navbar-collapse-1 {
+		background-color: black;
+	}
+	a {color: hotpink;
+}
