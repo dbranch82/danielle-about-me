@@ -9,11 +9,13 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 				integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-		<!-- Google Fonts -->
-		<link href="https://fonts.googleapis.com/css?family=Playball|Roboto:400,400i,700,700i" rel="stylesheet">
 
 		<!-- custom stylesheet -->
 		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Playball|Roboto:400,400i,700,700i" rel="stylesheet">
+
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,8 +36,7 @@
 	<body>
 
 		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-					  data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
@@ -51,13 +52,11 @@
 				<li><a href="#">Link 4</a></li>
 			</ul>
 		</div><!-- /.navbar-collapse -->
-		<div>
-			<div class="bgimg"></div>
+		<div class="bgimg-1">
 			<div class="caption">
 				<span class="border">
-
-					<img src="documentation/images/web.jpg" alt=gangsta/>
-				</span>
+			<p>MOMOVA</p>
+					</span>
 			</div>
 		</div>
 
