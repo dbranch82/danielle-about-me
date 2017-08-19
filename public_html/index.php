@@ -34,30 +34,21 @@
 		<title>Name of my website</title>
 	</head>
 	<body>
+		<div class="clr"></div>
 
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<a class="navbar-brand" href="#">Home</a>
-		</div>
-		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-			<ul class="nav navbar-nav navbar-right">
-				<li><a href="#">Link 1</a></li>
-				<li><a href="#">Link 2</a></li>
-				<li><a href="#">Link 3</a></li>
-				<li><a href="#">Link 4</a></li>
+		<h1> <span>Our Company</span></h1>
+		<div class="content">
+			<ul class="bmenu">
+				<li><a href="#">Our Company</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Who we are</a></li>
+				<li><a href="#">Personal Projects</a></li>
+				<li><a href="#">Contact Us</a></li>
 			</ul>
-		</div><!-- /.navbar-collapse -->
-		<div class="bgimg-1">
-			<div class="caption">
-				<span class="border">
-			<p>MOMOVA</p>
-					</span>
+
+				This text appears in front of the background image.
 			</div>
-		</div>
+
 
 	</body>
+	</html>
