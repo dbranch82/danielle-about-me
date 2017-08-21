@@ -23,7 +23,7 @@
 			<li>To act as an about me page for my companies website</li>
 			<li>To attract small businesses</li>
 		</ul><h1>Meet Sara</h1>
-		<img style="margin:0 auto;display: block" src="images/sarapic.jpg" alt="sara picture"/>
+		<img style="margin:0 auto;display: block" src="../images/sarapic.jpg" alt="sara picture"/>
 		<h1>Persona</h1>
 		<p><strong>Name:</strong> Sara Smith</p>
 		<p><strong>Age:</strong> 32</p>

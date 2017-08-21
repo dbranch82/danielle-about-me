@@ -32,12 +32,12 @@
 			prefer
 			direct contact.</p>
 		<h2>Web wireframe</h2>
-		<img style="margin:0 auto;display: block" src="images/page1wireframe.png" alt="page 1 web wireframe"/>
-		<img style="margin:0 auto;display: block" src="images/page2wireframe.png" alt="page 2 web wireframe"/>
-		<img style="margin:0 auto;display: block" src="images/page3wireframe.png" alt="page 3 web wireframe"/>
-		<img style="margin:0 auto;display: block" src="images/page4wireframe.png" alt="page 4 web wireframe"/>
+		<img style="margin:0 auto;display: block" src="../images/page1wireframe.png" alt="page 1 web wireframe"/>
+		<img style="margin:0 auto;display: block" src="../images/page2wireframe.png" alt="page 2 web wireframe"/>
+		<img style="margin:0 auto;display: block" src="../images/page3wireframe.png" alt="page 3 web wireframe"/>
+		<img style="margin:0 auto;display: block" src="../images/page4wireframe.png" alt="page 4 web wireframe"/>
 		<h2>Cell phone wireframe</h2>
-		<img style="margin:0 auto;display: block" src="images/cellphonewfpage1.png" alt="page 1 cell wireframe"/>
-		<img style="margin:0 auto;display: block" src="images/cellphonewfpage2.png" alt="page 2 cell wireframe"/>
+		<img style="margin:0 auto;display: block" src="../images/cellphonewfpage1.png" alt="page 1 cell wireframe"/>
+		<img style="margin:0 auto;display: block" src="../images/cellphonewfpage2.png" alt="page 2 cell wireframe"/>
 	</body>
 </html>
