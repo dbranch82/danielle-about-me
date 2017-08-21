@@ -19,15 +19,21 @@ body, html {
 
 }
 .bgimg-1 {
-	background-image: url("../images/sarapic.jpg");
+	background-image: url("../images/unicorn.jpg");
 	min-height: 100%;
+	background-color: deepskyblue;
 }
 
 .bgimg-2 {
-	background-image: url("../images/gangsta.png");
+	background-image: url("../images/2friends.jpg");
 	min-height: 400px;
 }
-
+.scared {
+	font-weight: bolder;
+	color: whitesmoke;
+	font-size: 1.5rem;
+	text-align: center;
+}
 .bgimg-3 {
 	background-image: url("../images/web.jpg");
 	min-height: 400px;
@@ -43,8 +49,8 @@ body, html {
 }
 
 .caption span.border {
-	background-color: #111;
-	color: #fff;
+	background-color:#9D87AE;
+	color:black;
 	padding: 18px;
 	font-size: 25px;
 	letter-spacing: 10px;
@@ -54,7 +60,7 @@ h3 {
 	letter-spacing: 5px;
 	text-transform: uppercase;
 	font: 20px "Lato", sans-serif;
-	color: #111;
+	color: whitesmoke;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
