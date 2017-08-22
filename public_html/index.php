@@ -34,8 +34,8 @@
 			</div>
 		</div>
 
-		<div style="color: #AD9D7C;background-color:#75CED2;text-align:center;padding:50px 80px;text-align: justify;">
-			<h3 style="text-align:center; background-color: #75CED2">UNICORN</h3>
+		<div class="divstyle1">
+			<p>UNICORN</p>
 			<p>Unicorn, noun, A hyprid web designer/web developer in the tech industry. We are web developers who can build your website and we are also web designers who can deploy a user friendly front end that will allow your customers a simple experience with eye catching design elements.  </p>
 		</div>
 
@@ -45,8 +45,7 @@
 			</div>
 		</div>
 
-		<div style="position:relative;">
-			<div style="color:#AD9D7C;background-color:#75CED2;text-align:center;padding:50px 80px;text-align: justify;">
+		<div class="divstyle2">
 				<p>We are a 100% women owned business. We believe in opportunity and a big part of our business model is giving back to our community. We build and design websites for small business but we also do one pagers for people needing something more to add to their business cards.</p>
 
 			</div>
