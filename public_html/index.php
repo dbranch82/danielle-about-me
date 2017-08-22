@@ -41,7 +41,7 @@
 
 		<div class="bgimg-2">
 			<div class="caption">
-				<span class="scared">Michelle and Danielle met the summer of 2017 while taking classes in computer programming. The instantly connected and became friends. They realized that they both had strong people skills and were both strong in different areas of web development and design. They developed theier business plan while still in school and the day of graduation launched //business name// </span>
+				<span class="scared">Michelle and Danielle met the summer of 2017 while taking classes in computer programming. The instantly connected and became friends. They realized that they both had strong people skills and were both confident in different areas of web development and design. They developed their business plan while still in school and the day of graduation launched //business name// </span>
 			</div>
 		</div>
 
@@ -54,12 +54,36 @@
 
 		<div class="bgimg-3">
 			<div class="caption">
-				<span class="border" style="background-color:transparent;font-size:25px;color: #C3E8F0;">Pricing bubbles</span>
+				<span class="border" style="background-color:transparent;font-size:25px;color: #C3E8F0;">Pricing bubbles
+				<section>
+					<div class="container">
+						<div class="row">
+							<div class="col-md-4">
+								<img class="img-responsive img-circle center-block" src="https://www.fillmurray.com/250/250" alt="classy bill murray">
+								<div class="well text-center">
+									<p>One Pagers</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive img-circle center-block" src="https://www.fillmurray.com/250/250" alt="classy bill murray">
+								<div class="well text-center">
+									<p>Wordpress</p>
+								</div>
+							</div>
+							<div class="col-md-4">
+								<img class="img-responsive img-circle center-block" src="https://www.fillmurray.com/250/250" alt="classy bill murray">
+								<div class="well text-center">
+									<p>Full Site</p>
+
+						</div>
+					</div>
+				</section>
+				</span>
 			</div>
 		</div>
 
-		<div style="position:relative;">
-			<div style="color:#AD9D7C;background-color:#75CED2;text-align:center;padding:50px 80px;text-align: justify;">
+		<div style=/*"position:relative;">
+			<div style="color:#AD9D7C;background-color:#75CED2;/*text-align:center*/;padding:50px 80px;text-align: justify;">
 				<p>Projects we have worked or are currently working on</p>
 				<p>Ask Rochelle about bubbles need at least four circles here for projects.</p>
 			</div>
@@ -73,16 +97,6 @@
 		</div>
 		<div class="parallax"></div>
 
-
-		<div class="section2">
-
-		</div>
-		<div class="section3">
-
-		</div>
-		<div class="section4">
-
-		</div>
 		<div class="contactform">
 
 		</div>
