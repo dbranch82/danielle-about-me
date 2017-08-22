@@ -87,8 +87,8 @@
 			</div>
 		</div>
 
-		<div style=/*"position:relative;">
-			<div style="color:#AD9D7C;background-color:#75CED2;/*text-align:center*/;padding:50px 80px;text-align: justify;">
+		<div style="position:relative;">
+			<div style="color:black;background-color:#dc696a;padding:50px 80px;text-align: justify;">
 				<p>Projects we have worked or are currently working on</p>
 				<p>Ask Rochelle about bubbles need at least four circles here for projects.</p>
 			</div>

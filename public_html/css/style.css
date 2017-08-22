@@ -82,13 +82,19 @@ body, html {
 	font-size: 35px;
 	letter-spacing: 10px;
 	font-family: "Lucida Bright", "Comic Sans MS", sans-serif;
-	text-shadow: #C3E8F0;
+	text-shadow: #dc696a;
 	;
 }
 .caption {
-	color: firebrick;
+	color: #dc696a;
 	font-weight: 900;
 	padding-top: 40%;
+}
+
+.well.text-center {
+	background: center;
+	color: #dc696a;
+	border-color: paleturquoise;
 }
 
 /* Turn off parallax scrolling for tablets and phones */
