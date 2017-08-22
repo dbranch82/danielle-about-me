@@ -49,12 +49,10 @@
 				<p>We are a 100% women owned business. We believe in opportunity and a big part of our business model is giving back to our community. We build and design websites for small business but we also do one pagers for people needing something more to add to their business cards.</p>
 
 			</div>
-		</div>
 
 		<div class="bgimg-3">
 			<div class="caption">
-				<span class="border" style="background-color:transparent;font-size:25px;color: #C3E8F0;">Pricing bubbles
-				<section>
+				<div class="border" style="background-color:transparent;font-size:25px;color: #C3E8F0;">Pricing bubbles
 					<div class="container">
 						<div class="row">
 							<div class="col-md-4">
@@ -76,8 +74,7 @@
 
 						</div>
 					</div>
-				</section>
-				</span>
+				</div>
 			</div>
 		</div>
 
