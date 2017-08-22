@@ -58,19 +58,19 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-md-4">
-								<img class="img-responsive img-circle center-block" src="https://www.fillmurray.com/250/250" alt="classy bill murray">
+
 								<div class="well text-center">
 									<p>One Pagers</p>
 								</div>
 							</div>
 							<div class="col-md-4">
-								<img class="img-responsive img-circle center-block" src="https://www.fillmurray.com/250/250" alt="classy bill murray">
+
 								<div class="well text-center">
 									<p>Wordpress</p>
 								</div>
 							</div>
 							<div class="col-md-4">
-								<img class="img-responsive img-circle center-block" src="https://www.fillmurray.com/250/250" alt="classy bill murray">
+
 								<div class="well text-center">
 									<p>Full Site</p>
 

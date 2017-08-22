@@ -39,12 +39,13 @@ body, html {
 	background-image: url("../images/web.jpg");
 	min-height: 400px;
 }
+
 .divstyle1 {
 	background-color: indianred;
-	padding-top: 15%;
 	color: darkturquoise;
 	text-align: -webkit-center;
 	position: relative;
+	padding: 5%;
 }
 
 .divstyle2 {
