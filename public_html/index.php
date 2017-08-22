@@ -31,17 +31,26 @@
 		<div class="bgimg-1">
 			<div class="caption">
 				<span class="border">Whatever our name is</span>
+				<p></p>
 			</div>
 		</div>
 
 		<div class="divstyle1">
-			<p>UNICORN</p>
-			<p>Unicorn, noun, A hyprid web designer/web developer in the tech industry. We are web developers who can build your website and we are also web designers who can deploy a user friendly front end that will allow your customers a simple experience with eye catching design elements.  </p>
+			<p>Our Story</p>
+			<p>Michelle and Danielle met the summer of 2017 while taking classes in computer programming. The instantly connected and became friends. They realized that they both had strong people skills and were both confident in different areas of web development and design. They developed their business plan while still in school and the day of graduation launched Unisus</p>
 		</div>
-
 		<div class="bgimg-2">
 			<div class="caption">
-				<span class="scared">Michelle and Danielle met the summer of 2017 while taking classes in computer programming. The instantly connected and became friends. They realized that they both had strong people skills and were both confident in different areas of web development and design. They developed their business plan while still in school and the day of graduation launched //business name// </span>
+				<span class="scared">What we believe in</span>
+			</div>
+		</div>
+		<div class="divstyle1">
+			<p>We believe in giving back whenever possible. Part of our business model includes giving back to the community through job development tools. We believe in what comes around goes around so we want to spread give back some of the oppurtunity that we have been fortunate enough to receive.</p>
+		</div>
+
+		<div class="bgimg-4">
+			<div class="caption">
+				<span class="scared">We provide all of your website needs yadayadayada blahblahblah give me your money blahblahblah blahblah blahblah </span>
 			</div>
 		</div>
 
@@ -52,7 +61,7 @@
 
 		<div class="bgimg-3">
 			<div class="caption">
-				<div class="border" style="background-color:transparent;font-size:25px;color: #C3E8F0;">Pricing bubbles
+				<div class="border">Pricing bubbles
 					<div class="container">
 						<div class="row">
 							<div class="col-md-4">
@@ -85,7 +94,7 @@
 			</div>
 		</div>
 
-		<div class="bgimg-1">
+
 			<div class="caption">
 				<span class="border">Let's Talk!</span>
 				<p>Contact Form</p>
