@@ -307,8 +307,6 @@ div.product-chooser div.product-chooser-item{
 	position: relative;
 	border: 1px solid #efefef;
 	margin-bottom: 10px;
-	margin-left: 10px;
-	margin-right: 10x;
 }
 
 div.product-chooser div.product-chooser-item.selected{
