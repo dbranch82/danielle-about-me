@@ -125,10 +125,7 @@
 				<footer><a href="tel:">505-589-1515</a></footer>
 			</div>
 		</div>
-			<link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
-			<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
-			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
+			<!--I want this in a box-->
 			<section id="contact">
 				<div class="section-content">
 					<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> </span></h1>
