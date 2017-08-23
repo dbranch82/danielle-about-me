@@ -18,6 +18,11 @@ body, html {
 
 }
 
+footer {
+	font-weight: bolder;
+	color: white;
+}
+
 .bgimg-1 {
 	background-image: url("../images/2friends.jpg");
 	min-height: 100%;
@@ -51,7 +56,7 @@ body, html {
 }
 
 .divstyle1 {
-	background-color: indianred; opacity: 4%;
+	background-color: #E89D9E;
 	color: darkturquoise;
 	text-align: -webkit-center;
 	position: relative;
@@ -60,11 +65,18 @@ body, html {
 
 .divstyle2 {
 	background-color: transparent;
-	color: indianred;
+	color: #E89D9E;
 	text-align: center;
 	padding: 50px 80px;
 	position: relative;
 
+}
+
+.oops {
+	color: black;
+	background-color: #E89D9E;
+	padding: 50px 80px;
+	text-align: justify;
 }
 
 .caption {
@@ -82,18 +94,18 @@ body, html {
 	font-size: 35px;
 	letter-spacing: 10px;
 	font-family: "Lucida Bright", "Comic Sans MS", sans-serif;
-	text-shadow: #dc696a;
-	;
+	text-shadow: #E89D9E;;
 }
+
 .caption {
-	color: #dc696a;
+	color: #E89D9E;
 	font-weight: 900;
 	padding-top: 40%;
 }
 
 .well.text-center {
 	background: center;
-	color: #dc696a;
+	color: #E89D9E;
 	border-color: paleturquoise;
 }
 
@@ -101,5 +113,73 @@ body, html {
 @media only screen and (max-device-width: 1024px) {
 	.bgimg-1, .bgimg-2, .bgimg-3 {
 		background-attachment: scroll;
+	}
+
+	/*contact form*/
+	/*Contact sectiom*/
+	.content-header {
+		font-family: 'Oleo Script', cursive;
+		color: #fcc500;
+		font-size: 45px;
+	}
+
+	.section-content {
+		text-align: center;
+
+	}
+
+	.contact {
+
+		font-family: 'Teko', sans-serif;
+		padding-top: 60px;
+		width: 100%;
+		width: 100vw;
+		height: 550px;
+		background: linear-gradient(to left, #3a6186, #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		color: #fff;
+	}
+
+	.contact-section {
+		padding-top: 40px;
+	}
+	.contact-section .col-md-6 {
+		width: 50%;
+	}
+
+	.form-line {
+		border-right: 1px solid #B29999;
+	}
+
+	.form-group {
+		margin-top: 10px;
+	}
+
+	label {
+		font-size: 1.3em;
+		line-height: 1em;
+		font-weight: normal;
+	}
+
+	.form-control {
+		font-size: 1.3em;
+		color: #080808;
+	}
+
+	textarea.form-control {
+		height: 135px;
+		/* margin-top: px;*/
+	}
+
+	.submit {
+		font-size: 1.1em;
+		float: right;
+		width: 150px;
+		background-color: transparent;
+		color: #fff;
+
+	}
+	h3 {
+		color: #E89D9E;
+		text-align: center;
 	}
 }

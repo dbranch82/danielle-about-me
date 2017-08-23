@@ -88,7 +88,7 @@
 		</div>
 
 		<div style="position:relative;">
-			<div style="color:black;background-color:#dc696a;padding:50px 80px;text-align: justify;">
+			<div class="oops">
 				<p>Projects we have worked or are currently working on</p>
 				<p>Ask Rochelle about bubbles need at least four circles here for projects.</p>
 			</div>
@@ -98,11 +98,49 @@
 			<div class="caption">
 				<span class="border">Let's Talk!</span>
 				<p>Contact Form</p>
+				<footer><a href="tel:">505-589-1515</a></footer>
 			</div>
 		</div>
-		<div class="parallax"></div>
+			<link href="https://fonts.googleapis.com/css?family=Oleo+Script:400,700" rel="stylesheet">
+			<link href="https://fonts.googleapis.com/css?family=Teko:400,700" rel="stylesheet">
+			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
-		<div class="contactform">
+			<section id="contact">
+				<div class="section-content">
+					<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s" data-wow-duration="2s"> </span></h1>
+					<h3>General questions / Project inquires</h3>
+				</div>
+				<div class="contact-section">
+					<div class="container">
+						<form>
+							<div class="col-md-6 form-line">
+								<div class="form-group">
+									<label for="exampleInputUsername">Your name</label>
+									<input type="text" class="form-control" id="" placeholder=" Enter Name">
+								</div>
+								<div class="form-group">
+									<label for="exampleInputEmail">Email Address</label>
+									<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+								</div>
+								<div class="form-group">
+									<label for="telephone">Mobile No.</label>
+									<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for ="description"> Message</label>
+									<textarea  class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+								</div>
+								<div>
+
+									<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Send Message</button>
+								</div>
+
+							</div>
+						</form>
+					</div>
+			</section>
 
 		</div>
 	</body>
