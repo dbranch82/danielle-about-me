@@ -165,6 +165,5 @@
 			</section>
 
 		</div>
-		<script src="javascript/javascript.js"></script>
 	</body>
 </html>
