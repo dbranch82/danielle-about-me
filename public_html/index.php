@@ -83,7 +83,8 @@
 
 		<div class="bgimg-4">
 			<div class="caption">
-				<span class="scared">We provide all of your website needs yadayadayada blahblahblah give me your money</span>
+				<span
+					class="scared">We provide all of your website needs yadayadayada blahblahblah give me your money</span>
 			</div>
 		</div>
 
@@ -94,107 +95,123 @@
 				you achieve your vision.</p>
 
 		</div>
+		<div class="container">
+			<h2>Normal</h2>
+			<div class="row form-group product-chooser">
 
-		<div class="bgimg-3">
-			<div class="caption">
-				<div class="border">Pricing bubbles
-					<div class="container">
-						<div class="row">
-							<div class="col-md-4">
-
-								<div class="well text-center">
-									<p>One Pagers</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-
-								<div class="well text-center">
-									<p>Wordpress</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-
-								<div class="well text-center">
-									<p>Full Site</p>
-
-								</div>
-							</div>
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="product-chooser-item selected">
+						<img src="http://renswijnmalen.nl/bootstrap/desktop_mobile.png" class="img-rounded col-xs-4 col-sm-4 col-md-12 col-lg-12" alt="Mobile and Desktop">
+						<div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+							<span class="title">Mobile and Desktop</span>
+							<span class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span>
+							<input type="radio" name="product" value="mobile_desktop" checked="checked">
 						</div>
+						<div class="clear"></div>
 					</div>
 				</div>
 
-				<div style="position:relative;">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="product-chooser-item">
+						<img src="http://renswijnmalen.nl/bootstrap/desktop.png" class="img-rounded col-xs-4 col-sm-4 col-md-12 col-lg-12" alt="Desktop">
+						<div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+							<span class="title">Desktop</span>
+							<span class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span>
+							<input type="radio" name="product" value="desktop">
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+					<div class="product-chooser-item">
+						<img src="http://renswijnmalen.nl/bootstrap/mobile.png" class="img-rounded col-xs-4 col-sm-4 col-md-12 col-lg-12" alt="Mobile">
+						<div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+							<span class="title">Mobile</span>
+							<span class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span>
+							<input type="radio" name="product" value="mobile">
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+<div class="bgimg-3"></div>
 					<div class="oops">
 						<p>Projects we have worked or are currently working on</p>
 						<p>Ask Rochelle about bubbles need at least four circles here for projects.</p>
 					</div>
-				</div>
 
+<!--I SHOULD HAVE DONE A MOCK UP-->
 
 				<div class="caption">
 					<span class="border">Let's Talk!</span>
 					<p>Contact Form</p>
 					<footer><a href="tel:">505-589-1515</a></footer>
 				</div>
-			</div>
-			<!--I want this in a box-->
-			<section id="contact">
-				<div class="section-content">
-					<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s"
-																data-wow-duration="2s"> </span></h1>
-					<h3>General questions / Project inquires</h3>
-				</div>
-				<div class="contact-section">
-					<div class="container">
-						<form>
-							<div class="col-md-6 form-line">
-								<div class="form-group">
-									<label for="exampleInputUsername">Your name</label>
-									<input type="text" class="form-control" id="" placeholder=" Enter Name">
-								</div>
-								<div class="form-group">
-									<label for="exampleInputEmail">Email Address</label>
-									<input type="email" class="form-control" id="exampleInputEmail"
-											 placeholder=" Enter Email id">
-								</div>
-								<div class="form-group">
-									<label for="telephone">Mobile No.</label>
-									<input type="tel" class="form-control" id="telephone"
-											 placeholder=" Enter 10-digit mobile no.">
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="form-group">
-									<label for="description"> Message</label>
-									<textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
-								</div>
-								<div>
-
-									<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane"
-																											  aria-hidden="true"></i> Send Message
-									</button>
-								</div>
-								<footer>
-									<div class="col-md-12">
-										<ul class="social-network social-circle">
-											<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-											<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
-											</li>
-											<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
-											</li>
-											<li><a href="#" class="icoGoogle" title="Google +"><i
-														class="fa fa-google-plus"></i></a></li>
-											<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-											</li>
-										</ul>
-									</div>
-								</footer>
-
-							</div>
-						</form>
+		<div class="bgimg-3"></div>
+				<!--I want this in a box-->
+				<section id="contact">
+					<div class="section-content">
+						<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s"
+																	data-wow-duration="2s"> </span></h1>
+						<h3>General questions / Project inquires</h3>
 					</div>
-			</section>
+					<div class="contact-section">
+						<div class="container">
+							<form>
+								<div class="col-md-6 form-line">
+									<div class="form-group">
+										<label for="exampleInputUsername">Your name</label>
+										<input type="text" class="form-control" id="" placeholder=" Enter Name">
+									</div>
+									<div class="form-group">
+										<label for="exampleInputEmail">Email Address</label>
+										<input type="email" class="form-control" id="exampleInputEmail"
+												 placeholder=" Enter Email id">
+									</div>
+									<div class="form-group">
+										<label for="telephone">Mobile No.</label>
+										<input type="tel" class="form-control" id="telephone"
+												 placeholder=" Enter 10-digit mobile no.">
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<label for="description"> Message</label>
+										<textarea class="form-control" id="description"
+													 placeholder="Enter Your Message"></textarea>
+									</div>
+									<div>
 
-		</div>
+										<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane"
+																												  aria-hidden="true"></i> Send
+											Message
+										</button>
+									</div>
+									<footer>
+										<div class="col-md-12">
+											<ul class="social-network social-circle">
+												<li><a href="#" class="icoGithub" title="Github"><i class="fa fa-github"></i></a>
+												</li>
+												<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+												</li>
+												<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+												</li>
+												<li><a href="#" class="icoInstagram" title="Google +"><i
+															class="fa fa-instagram"></i></a></li>
+												<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+												</li>
+											</ul>
+										</div>
+									</footer>
+
+								</div>
+							</form>
+						</div>
+				</section>
+
+			</div>
 	</body>
 </html>
