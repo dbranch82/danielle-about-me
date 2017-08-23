@@ -37,3 +37,6 @@ Your Milestone 2a passes at [Tier III](https://bootcamp-coders.cnm.edu/projects/
 ### Edits &amp; Suggestions
 - Missing `<meta charset="utf-8">` tag
 - Avoid inline CSS whenever possible.
+
+## Milestone 2&beta; Feedback
+Great work! You're almost there. Detailed feedback given via Slack. Your Milestone 2b passes at [Tier IV](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
