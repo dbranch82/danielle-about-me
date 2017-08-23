@@ -83,7 +83,7 @@
 
 		<div class="bgimg-4">
 			<div class="caption">
-				<span class="scared">We provide all of your website needs yadayadayada blahblahblah give me your money blahblahblah blahblah blahblah </span>
+				<span class="scared">We provide all of your website needs yadayadayada blahblahblah give me your money</span>
 			</div>
 		</div>
 
