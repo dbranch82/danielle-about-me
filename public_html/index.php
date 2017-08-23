@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8"/>
+		<!-- NEED TO MOVE SCROLLING TEXT SECTIONS THEY ARE NOT IN THE RIGHT SPOT-->
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
@@ -29,7 +30,7 @@
 
 
 	<body>
-		<header><!-- Fixed navbar -->
+		<header><!-- Fixed navbar --><!-- BREAKING MY SCROLL BAR ASK R -->
 			<nav id="header" class="navbar navbar-fixed-top">
 				<div id="header-container" class="container navbar-container">
 					<div class="navbar-header">
@@ -56,6 +57,7 @@
 				<p></p>
 			</div>
 		</div>
+<!-- Why the weird white line -->
 
 		<div class="divstyle1">
 			<p>Our Story</p>
