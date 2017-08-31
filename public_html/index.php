@@ -33,9 +33,12 @@
 				  crossorigin="anonymous"></script>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
 		<!-- jQuery Form, Additional Methods, Validate -->
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+		<script type="text/javascript"
+				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/additional-methods.min.js"></script>
 
 	<body>
 
@@ -128,64 +131,72 @@
 
 
 				<!--I SHOULD HAVE DONE A MOCK UP-->
-				<div class="bgimg-3">
-					<section id="contact">
-						<div class="section-content">
-							<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s"
-																		data-wow-duration="2s"> </span></h1>
-							<h3>General questions / Project inquires</h3>
-						</div>
-						<div class="contact-section">
-							<div class="container">
-								<form>
-									<div class="col-md-6 form-line">
-										<div class="form-group">
-											<label for="exampleInputUsername">Your name</label>
-											<input type="text" class="form-control" id="" placeholder=" Enter Name">
-										</div>
-										<div class="form-group">
-											<label for="exampleInputEmail">Email Address</label>
-											<input type="email" class="form-control" id="exampleInputEmail"
-													 placeholder=" Enter Email id">
-										</div>
-										<div class="form-group">
-											<label for="telephone">Mobile No.</label>
-											<input type="tel" class="form-control" id="telephone"
-													 placeholder=" Enter 10-digit mobile no.">
-										</div>
-										<div class="col-md-6">
-											<div class="form-group">
-												<label for="description"> Message</label>
-												<textarea class="form-control" id="description"
-															 placeholder="Enter Your Message"></textarea>
-											</div>
-								</form>
-							</div>
-							<div>
-
-								<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane"
-																										  aria-hidden="true"></i> Send
-									Message
-								</button>
-							</div>
-							<footer>
-								<div class="col-md-12">
-									<ul class="social-network social-circle">
-										<li><a href="#" class="icoGithub" title="Github"><i class="fa fa-github"></i></a>
-										</li>
-										<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
-										</li>
-										<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
-										</li>
-										<li><a href="#" class="icoInstagram" title="Google +"><i
-													class="fa fa-instagram"></i></a></li>
-										<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-										</li>
-									</ul>
+					<form id="contact-form" action="php/mailer.php" method="post">
+						<div class="form-group">
+							<label for="name">Name <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-user" aria-hidden="true"></i>
 								</div>
-							</footer>
+								<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+							</div>
 						</div>
-						<a href="tel:">505-589-1515</a>
+						<div class="form-group">
+							<label for="email">Email <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</div>
+								<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="subject">Subject</label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-pencil" aria-hidden="true"></i>
+								</div>
+								<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="message">Message <span class="text-danger">*</span></label>
+							<div class="input-group">
+								<div class="input-group-addon">
+									<i class="fa fa-comment" aria-hidden="true"></i>
+								</div>
+								<textarea class="form-control" rows="5" id="message" name="message"
+											 placeholder="Message (2000 characters max)"></textarea>
+							</div>
+						</div>
+
+						<!-- reCAPTCHA -->
+						<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+
+						<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+						<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+					</form>
+					<div class="col-xs-12">
+						<div id="output-area"></div>
+						<!--end form-->
+						<footer>
+							<div class="col-md-12">
+								<ul class="social-network social-circle">
+									<li><a href="#" class="icoGithub" title="Github"><i class="fa fa-github"></i></a>
+									</li>
+									<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+									</li>
+									<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+									</li>
+									<li><a href="#" class="icoInstagram" title="Google +"><i
+												class="fa fa-instagram"></i></a></li>
+									<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+									</li>
+								</ul>
+							</div>
+						</footer>
+					</div>
+					<a href="tel:">505-589-1515</a>
 					</section>
 					<footer class="footer">
 						<div class="container">
