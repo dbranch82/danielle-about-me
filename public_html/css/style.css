@@ -24,7 +24,7 @@ footer {
 }
 
 .bgimg-1 {
-	background-image: url("../images/2friends.jpg");
+	background-image: url("../images/class.jpg");
 	min-height: 100%;
 }
 
@@ -53,14 +53,15 @@ footer {
 	background-color: transparent;
 	font-size: 25px;
 	color: #C3E8F0;
+	margin-left: 45%;
 }
 
 .divstyle1 {
-	background-color: #E89D9E;
+	background-color: white;
 	color: darkturquoise;
 	text-align: -webkit-center;
 	position: relative;
-	padding: 5%;
+	padding: 1%;
 }
 
 .divstyle2 {
@@ -98,9 +99,10 @@ footer {
 }
 
 .caption {
-	color: #E89D9E;
+	color: white;
 	font-weight: 900;
-	padding-top: 40%;
+	align-items: center;
+
 }
 
 .well.text-center {
@@ -132,8 +134,6 @@ footer {
 
 		font-family: 'Teko', sans-serif;
 		padding-top: 60px;
-		width: 100%;
-		width: 100vw;
 		height: 550px;
 		background: linear-gradient(to left, #3a6186, #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 		color: #fff;
@@ -184,58 +184,7 @@ footer {
 	}
 }
 
-/*
-nav bar
- */
 
-/*
-* Style tweaks
-* --------------------------------------------------
-*/
-html,
-body {
-	overflow-x: hidden; /* Prevent scroll on narrow devices */
-}
-body {
-	padding-top: 100px;
-}
-footer {
-	padding: 30px 0;
-}
-
-/*
- * Custom styles
- */
-.navbar-brand {
-	font-size: 24px;
-}
-
-.navbar-container {
-	padding: 20px 0 20px 0;
-}
-
-.navbar.navbar-fixed-top.fixed-theme {
-	background-color: #222;
-	border-color: #080808;
-	box-shadow: 0 0 5px rgba(0,0,0,.8);
-}
-
-.navbar-brand.fixed-theme {
-	font-size: 18px;
-}
-
-.navbar-container.fixed-theme {
-	padding: 0;
-}
-
-.navbar-brand.fixed-theme,
-.navbar-container.fixed-theme,
-.navbar.navbar-fixed-top.fixed-theme,
-.navbar-brand,
-.navbar-container{
-	transition: 0.8s;
-	-webkit-transition:  0.8s;
-}
 /*
 icons
  */
@@ -251,9 +200,9 @@ ul.social-network li {
 }
 
 
-/* footer social icons */
+/* social icons */
 .social-network a.icoGithub:hover {
-	background-color: #F56505;
+	background-color: #f5f37c;
 }
 .social-network a.icoFacebook:hover {
 	background-color:#3B5998;
@@ -262,7 +211,7 @@ ul.social-network li {
 	background-color:#33ccff;
 }
 .social-network a.icoInstagram:hover {
-	background-color:#BD3518;
+	background-color:deeppink;
 }
 .social-network a.icoVimeo:hover {
 	background-color:#0590B8;
@@ -281,7 +230,7 @@ a.socialIcon:hover, .socialHoverClass {
 
 
 /*
-who knows
+who knows just cause
  */
 div.clear
 {
@@ -379,4 +328,20 @@ div.product-chooser div.product-chooser-item input{
 
 a {
 	background-color: #D3D3D3;
+}
+
+.col-md-12 {
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+
+label {
+	color: cyan;
+	font-weight: 500;
+}
+
+h3 {
+	text-align: -webkit-center;
+	color: cyan;
+	font-weight: inherit;
 }
