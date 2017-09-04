@@ -8,6 +8,17 @@ body, html {
 	color: #777;
 }
 
+.navbar {
+	color: black;
+	margin-bottom: 0px;
+}
+.navbar-default {
+	background-image:
+linear-gradient(to bottom, #000 0, #080808 100 %);
+}
+.navbar-brand, .navbar-nav>li>a {
+	text-shadow: 0 1px 0 #5bc0de;
+}
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
 	position: relative;
 	opacity: 0.65;
@@ -24,7 +35,7 @@ footer {
 }
 
 .bgimg-1 {
-	background-image: url("../images/class.jpg");
+	background-image: url("../images/office-1575261_1920.jpg");
 	min-height: 100%;
 }
 
@@ -38,6 +49,9 @@ footer {
 	color: whitesmoke;
 	font-size: 1.5rem;
 	text-align: center;
+	display: list-item;
+	align-items: center;
+
 }
 
 .bgimg-3 {
@@ -110,6 +124,10 @@ footer {
 	color: #E89D9E;
 	border-color: paleturquoise;
 }
+.page-header {
+	padding-bottom: 9px;
+	border-bottom: 1px solid black;
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
@@ -142,6 +160,7 @@ footer {
 	.contact-section {
 		padding-top: 40px;
 	}
+
 	.contact-section .col-md-6 {
 		width: 50%;
 	}
@@ -178,12 +197,12 @@ footer {
 		color: #fff;
 
 	}
+
 	h3 {
 		color: #E89D9E;
 		text-align: center;
 	}
 }
-
 
 /*
 icons
@@ -191,65 +210,68 @@ icons
 ul.social-network {
 	list-style: none;
 	display: inline;
-	margin-left:0 !important;
+	margin-left: 0 !important;
 	padding: 0;
 }
+
 ul.social-network li {
 	display: inline;
 	margin: 0 5px;
 }
 
-
 /* social icons */
 .social-network a.icoGithub:hover {
 	background-color: #f5f37c;
 }
+
 .social-network a.icoFacebook:hover {
-	background-color:#3B5998;
+	background-color: #3B5998;
 }
+
 .social-network a.icoTwitter:hover {
-	background-color:#33ccff;
+	background-color: #33ccff;
 }
+
 .social-network a.icoInstagram:hover {
-	background-color:deeppink;
+	background-color: deeppink;
 }
+
 .social-network a.icoVimeo:hover {
-	background-color:#0590B8;
+	background-color: #0590B8;
 }
+
 .social-network a.icoLinkedin:hover {
-	background-color:#007bb7;
+	background-color: #007bb7;
 }
+
 .social-network a.icoGithub:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
 .social-network a.icoInstagram:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
-	color:#fff;
+	color: #fff;
 }
+
 a.socialIcon:hover, .socialHoverClass {
-	color:#44BCDD;
+	color: #44BCDD;
 }
-
-
 
 /*
 who knows just cause
  */
-div.clear
-{
+div.clear {
 	clear: both;
 }
 
-div.product-chooser{
+div.product-chooser {
 
 }
 
-div.product-chooser.disabled div.product-chooser-item
-{
+div.product-chooser.disabled div.product-chooser-item {
 	zoom: 1;
 	filter: alpha(opacity=60);
 	opacity: 0.6;
 	cursor: default;
 }
 
-div.product-chooser div.product-chooser-item{
+div.product-chooser div.product-chooser-item {
 	padding: 11px;
 	border-radius: 6px;
 	cursor: pointer;
@@ -258,7 +280,7 @@ div.product-chooser div.product-chooser-item{
 	margin-bottom: 10px;
 }
 
-div.product-chooser div.product-chooser-item.selected{
+div.product-chooser div.product-chooser-item.selected {
 	border: 4px solid #428bca;
 	background: #efefef;
 	padding: 8px;
@@ -266,43 +288,99 @@ div.product-chooser div.product-chooser-item.selected{
 	opacity: 1;
 }
 
-div.product-chooser div.product-chooser-item img{
+div.product-chooser div.product-chooser-item img {
 	padding: 0;
 }
 
-div.product-chooser div.product-chooser-item span.title{
+div.product-chooser div.product-chooser-item span.title {
 	display: block;
 	margin: 10px 0 5px 0;
 	font-weight: bold;
 	font-size: 12px;
 }
 
-div.product-chooser div.product-chooser-item span.description{
+div.product-chooser div.product-chooser-item span.description {
 	font-size: 12px;
 }
 
-div.product-chooser div.product-chooser-item input{
+div.product-chooser div.product-chooser-item input {
 	position: absolute;
 	left: 0;
 	top: 0;
-	visibility:hidden;
+	visibility: hidden;
+}
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+	list-style: none;
+	display: inline;
+	margin-left: 0 !important;
+	padding: 0;
+}
+
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.g-recaptcha {
+	padding-top: inherit;
+}
+
+/* footer social icons */
+.social-network a.icoRss:hover {
+	background-color: #F56505;
+}
+
+.social-network a.icoFacebook:hover {
+	background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+	background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+	background-color: #bd42b0;
+}
+
+.social-network a.icoVimeo:hover {
+	background-color: #0590B8;
+}
+
+.social-network a.icoLinkedin:hover {
+	background-color: #007bb7;
+}
+
+.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+	color: #fff;
+}
+
+a.socialIcon:hover, .socialHoverClass {
+	color: #44BCDD;
 }
 
 .social-circle li a {
-	display:inline-block;
-	position:relative;
-	margin:0 auto 0 auto;
-	-moz-border-radius:50%;
-	-webkit-border-radius:50%;
-	border-radius:50%;
-	text-align:center;
+	display: inline-block;
+	position: relative;
+	margin: 0 auto 0 auto;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	text-align: center;
 	width: 50px;
 	height: 50px;
-	font-size:20px;
+	font-size: 20px;
 }
+
 .social-circle li i {
-	margin:0;
-	line-height:50px;
+	margin: 0;
+	line-height: 50px;
 	text-align: center;
 }
 
@@ -317,8 +395,9 @@ div.product-chooser div.product-chooser-item input{
 	-ms-transition: all 0.2s;
 	transition: all 0.2s;
 }
+
 .social-circle i {
-	color: #fff;
+	color: cyan;
 	-webkit-transition: all 0.8s;
 	-moz-transition: all 0.8s;
 	-o-transition: all 0.8s;
@@ -327,7 +406,12 @@ div.product-chooser div.product-chooser-item input{
 }
 
 a {
-	background-color: #D3D3D3;
+	background-color: black;
+
+}
+
+div#navbar {
+	background-color: black;
 }
 
 .col-md-12 {
@@ -344,4 +428,35 @@ h3 {
 	text-align: -webkit-center;
 	color: cyan;
 	font-weight: inherit;
+	padding-top: 5%;
 }
+
+/*us*/
+h1{
+	font-size:4.5em;
+}
+
+p{
+	font-weight:400;
+	font-size:3em;
+}
+
+.img-quadrata {
+	border-radius:50%;
+	width:250px;
+	height:250px;
+}
+
+h3{
+	font-weight:800;
+	color:#f0ad4e;
+	font-size:2em;
+}
+small{
+	text-align:center;
+	font-size:1.5em;
+	text-decoration:underline;
+	color:gray;
+}
+
+
