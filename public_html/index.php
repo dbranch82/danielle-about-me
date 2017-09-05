@@ -47,21 +47,20 @@
 
 	<body>
 
-		<nav class="navbar navbar-inverse">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="voicebox.html">VoiceBOX</a>
-				</div>
-				<ul class="nav navbar-nav">
-					<li><a href="#">TOUR</a></li>
-					<li><a href="#">HOW TO PODCAST</a></li>
-					<li><a href="#">OUR PODCASTS</a></li>
-				</ul>
-				<ul class="nav navbar-nav navbar-right">
-				</ul>
-		</nav>
-
 		<!-- Begin page content -->
 			<div class="bgimg-1">
+				<nav class="navbar navbar-inverse">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="voicebox.html">Our name</a>
+					</div>
+					<ul class="nav navbar-nav">
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Who we are</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+					</ul>
+				</nav>
 				<div class="caption">
 					<span class="border"></span>
 					<p>Our Story</p>
@@ -167,33 +166,37 @@
 				<!--I want this in a box-->
 						<div class="bgimg-3">
 					<div class="section-content">
-						<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s"- data-wow-duration="2s"> </span></h1>
+						<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s"data-wow-duration="2s"> </span></h1>
 						<h3>General questions / Project inquires</h3>
 					</div>
 					<div class="contact-section">
 						<div class="container">
 							<form>
 								<div class="col-md-6 form-line">
+									<div class="middle">
+									<form id="contact-form" action="php/mailer.php" method="post" novalidate>
 									<div class="form-group">
 										<label for="exampleInputUsername">Your name</label>
-										<input type="text" class="form-control" id="" placeholder=" Enter Name">
+										<input type="text" class="form-control" id="name" placeholder=" Enter Name">
 									</div>
 									<div class="form-group">
 										<label for="exampleInputEmail">Email Address</label>
-										<input type="email" class="form-control" id="exampleInputEmail" placeholder=" Enter Email id">
+										<input type="email" class="form-control" id="email" placeholder="Email">
 									</div>
-									<div class="form-group">
-										<label for="telephone">Mobile No.</label>
-										<input type="tel" class="form-control" id="telephone" placeholder=" Enter 10-digit mobile no.">
-									</div>
-								</div>
+
+									
 								<div class="col-md-6">
 									<div class="form-group">
 										<label for="description"> Message</label>
-										<textarea class="form-control" id="description" placeholder="Enter Your Message"></textarea>
+										<textarea class="form-control" id="message" placeholder="Enter Your Message"></textarea>
 									</div>
 									<div>
-										<button type="button" class="btn btn-default submit"><i class="fa fa-paper-plane" aria-hidden="true"></i> SendMessage</button></div>
+									<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send
+									</button>
+									<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+									</form>
+										</div>
+
 									<footer>
 										<div class="col-md-12">
 											<ul class="social-network social-circle">
@@ -209,11 +212,14 @@
 											</ul>
 
 											<!-- reCAPTCHA -->
-											<div class="g-recaptcha" data-sitekey="--YOUR RECAPTCHA SITE KEY--"></div>
+											<div class="g-recaptcha" data-sitekey="6LeE5y4UAAAAAHWIhnNZSTKvRbQIsO7eMsns6L1l"></div>
 
-											<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send
-											</button>
-											<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+											<!--empty area for form error/success output-->
+											<div class="row">
+												<div class="col-xs-12">
+													<div id="output-area"></div>
+												</div>
+											</div>
 
 				<script src="javascript/javascript.js"></script>
 	</body>

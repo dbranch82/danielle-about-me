@@ -8,17 +8,6 @@ body, html {
 	color: #777;
 }
 
-.navbar {
-	color: black;
-	margin-bottom: 0px;
-}
-.navbar-default {
-	background-image:
-linear-gradient(to bottom, #000 0, #080808 100 %);
-}
-.navbar-brand, .navbar-nav>li>a {
-	text-shadow: 0 1px 0 #5bc0de;
-}
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
 	position: relative;
 	opacity: 0.65;
@@ -100,6 +89,7 @@ footer {
 	width: 100%;
 	text-align: center;
 	color: #000;
+	display: initial;
 }
 
 .caption span.border {
@@ -124,6 +114,7 @@ footer {
 	color: #E89D9E;
 	border-color: paleturquoise;
 }
+
 .page-header {
 	padding-bottom: 9px;
 	border-bottom: 1px solid black;
@@ -164,7 +155,11 @@ footer {
 	.contact-section .col-md-6 {
 		width: 50%;
 	}
-
+	.col-md-6.form-line {
+		align-items: normal;
+		all: inherit;
+		display: unset;
+	}
 	.form-line {
 		border-right: 1px solid #B29999;
 	}
@@ -432,31 +427,32 @@ h3 {
 }
 
 /*us*/
-h1{
-	font-size:4.5em;
+h1 {
+	font-size: 4.5em;
 }
 
-p{
-	font-weight:400;
-	font-size:3em;
+p {
+	font-weight: 400;
+	font-size: 3em;
 }
 
 .img-quadrata {
-	border-radius:50%;
-	width:250px;
-	height:250px;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
 }
 
-h3{
-	font-weight:800;
-	color:#f0ad4e;
-	font-size:2em;
+h3 {
+	font-weight: 800;
+	color: #f0ad4e;
+	font-size: 2em;
 }
-small{
-	text-align:center;
-	font-size:1.5em;
-	text-decoration:underline;
-	color:gray;
+
+small {
+	text-align: center;
+	font-size: 1.5em;
+	text-decoration: underline;
+	color: gray;
 }
 
 
