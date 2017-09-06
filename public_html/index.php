@@ -165,6 +165,7 @@
 
 				<!--I want this in a box-->
 						<div class="bgimg-3">
+							<div class="container">
 					<div class="section-content">
 						<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s"data-wow-duration="2s"> </span></h1>
 						<h3>General questions / Project inquires</h3>
@@ -211,15 +212,17 @@
 												</li>
 											</ul>
 
+
 											<!-- reCAPTCHA -->
 											<div class="g-recaptcha" data-sitekey="6LeE5y4UAAAAAHWIhnNZSTKvRbQIsO7eMsns6L1l"></div>
-
+										</div>
 											<!--empty area for form error/success output-->
 											<div class="row">
 												<div class="col-xs-12">
 													<div id="output-area"></div>
 												</div>
 											</div>
+
 
 				<script src="javascript/javascript.js"></script>
 	</body>
