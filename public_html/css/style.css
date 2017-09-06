@@ -414,6 +414,15 @@ h3 {
 	font-weight: inherit;
 	padding-top: 5%;
 }
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+	font-weight: 400;
+	line-height: 1;
+	color: firebrick;
+}
+
+h3.text-center {
+	padding-bottom: 15%;
+}
 
 /*us*/
 h1 {
@@ -433,7 +442,7 @@ p {
 
 h3 {
 	font-weight: 800;
-	color: #f0ad4e;
+	color: cyan;
 	font-size: 2em;
 }
 
