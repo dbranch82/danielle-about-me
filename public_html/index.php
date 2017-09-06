@@ -51,12 +51,12 @@
 			<div class="bgimg-1">
 				<nav class="navbar navbar-inverse">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="voicebox.html">Our name</a>
+						<a class="navbar-brand" href="">Our name</a>
 					</div>
 					<ul class="nav navbar-nav">
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Who we are</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="#services">Services</a></li>
+						<li><a href="#team">Who we are</a></li>
+						<li><a href="#contact-form">Contact</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 					</ul>
@@ -73,9 +73,10 @@
 			</div>
 
 
-			<div class="container">
+			<div id="services" class="container">
 				<h2>What we provide</h2>
 				<div class="row form-group product-chooser">
+
 
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 						<div class="product-chooser-item">
@@ -83,7 +84,7 @@
 								  class="img-rounded col-xs-4 col-sm-4 col-md-12 col-lg-12" alt="Mobile and Desktop">
 							<div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
 								<span class="title">CSS fixes</span>
-								<span class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span>
+								<span class="description">Regardless of the issue whether it is a font size, color or spacing issue we will look at your css issue and repair it for a one time fee</span>
 								<input type="radio" name="product" value="mobile_desktop" checked="checked">
 							</div>
 							<div class="clear"></div>
@@ -96,7 +97,7 @@
 								  class="img-rounded col-xs-4 col-sm-4 col-md-12 col-lg-12" alt="Desktop">
 							<div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
 								<span class="title">Wordpress</span>
-								<span class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span>
+								<span class="description">We can build you a word press site using prebuilt themes using wordpresses built in scalibkility and customization. We can install, customize and maintain your back end. </span>
 								<input type="radio" name="product" value="desktop">
 							</div>
 							<div class="clear"></div>
@@ -108,7 +109,7 @@
 								  class="img-rounded col-xs-4 col-sm-4 col-md-12 col-lg-12" alt="Mobile">
 							<div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
 								<span class="title">Fully responsive websites</span>
-								<span class="description">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</span>
+								<span class="description">We can create fully responsive websites to meet all of your personal and business needs. We will build it from the floor up and make it accessible to mobile users as well</span>
 								<input type="radio" name="product" value="mobile">
 							</div>
 							<div class="clear"></div>
@@ -119,7 +120,7 @@
 <!---us--->
 					<div class="section">
 						<div class="container">
-							<div class="row">
+							<div id="team" class="row">
 								<div class="col-md-12">
 									<h1 class="text-center text-primary">Meet our Team</h1>
 									<p class="text-center">We are a group of professionals that use our individual skill sets to deliver polished, efficiant websites </p>
@@ -170,33 +171,7 @@
 						<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s"data-wow-duration="2s"> </span></h1>
 						<h3>General questions / Project inquires</h3>
 					</div>
-<!--					<div class="contact-section">-->
-<!--						<div class="container">-->
-<!--							<form>-->
-<!--								<div class="col-md-6 form-line">-->
-<!--									<div class="middle">-->
-<!--									<form id="contact-form" action="php/mailer.php" method="post" novalidate>-->
-<!--									<div class="form-group">-->
-<!--										<label for="name">Your name<span class="text-danger"></span></label>-->
-<!--										<input type="text" class="form-control" id="name" placeholder=" Enter Name">-->
-<!--									</div>-->
-<!--									<div class="form-group">-->
-<!--										<label for="email">Email Address<span class="text-danger"></span></label>-->
-<!--										<input type="email" class="form-control" id="email" placeholder="Email">-->
-<!--									</div>-->
-<!---->
-<!---->
-<!--								<div class="col-md-6">-->
-<!--									<div class="form-group">-->
-<!--										<label for="message"> Message<span class="text-danger"></span></label>-->
-<!--										<textarea class="form-control" id="message" placeholder="Enter Your Message"></textarea>-->
-<!--									</div>-->
-<!--									<div>-->
-<!--									<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send-->
-<!--									</button>-->
-<!--									<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>-->
-<!--									</form>-->
-<!--										</div>-->
+<!--
 								<!--Begin Contact Form-->
 								<form id="contact-form" action="php/mailer.php" method="post">
 									<div class="form-group">
