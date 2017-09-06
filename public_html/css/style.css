@@ -5,7 +5,7 @@ body, html {
 	height: 100%;
 	margin: 0;
 	font: 400 15px/1.8 "Lato", sans-serif;
-	color: #777;
+	color: #5d48d3;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
@@ -53,7 +53,7 @@ footer {
 }
 
 .border {
-	background-color: transparent;
+	background-color: black;
 	font-size: 25px;
 	color: #C3E8F0;
 	margin-left: 45%;
@@ -155,11 +155,13 @@ footer {
 	.contact-section .col-md-6 {
 		width: 50%;
 	}
+
 	.col-md-6.form-line {
 		align-items: normal;
 		all: inherit;
 		display: unset;
 	}
+
 	.form-line {
 		border-right: 1px solid #B29999;
 	}
@@ -205,7 +207,7 @@ icons
 ul.social-network {
 	list-style: none;
 	margin-left: 0 !important;
-	padding: 0;
+	padding-left: 49%;
 	display: flex;
 }
 
@@ -398,6 +400,14 @@ div#navbar {
 	background-color: black;
 }
 
+.navbar-inverse .navbar-brand {
+	color: cyan;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: cyan;
+}
+
 .col-md-12 {
 	padding-top: 5%;
 	padding-bottom: 2%;
@@ -414,6 +424,7 @@ h3 {
 	font-weight: inherit;
 	padding-top: 5%;
 }
+
 .h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
 	font-weight: 400;
 	line-height: 1;
@@ -453,4 +464,15 @@ small {
 	color: gray;
 }
 
+.navbar-inverse {
+	background-color: #000000;
+	border: 5px solid cyan;
+	background-image: linear-gradient(to bottom,#000 0,#000000 100%);
+	padding-top: 1%;
+}
 
+.words {
+	padding-top: inherit;
+	color: cyan;
+	text-shadow: 2px 2px black;
+}

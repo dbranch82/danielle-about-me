@@ -60,15 +60,25 @@
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
 					</ul>
+					<ul class="social-network social-circle">
+						<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
+						</li>
+						<li><a href="" class="icoInstagram" title="Google +"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/danielle-branch/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
+						</li>
+					</ul>
 				</nav>
 				<div class="caption">
 					<span class="border"></span>
+					<div class="words">
 					<p>Our Story</p>
 					<p>We are an Albuquerque company specializing in whatever the hell we do.
 					</p>
 					<p>We work with Php, CSS, Bootstrap, javascript, and Wordpress. </p>
 					<p>We partner with other artisans in the albuquerque area to help you vision become a reality.</p>
-					<p></p>
+					</div>
 				</div>
 			</div>
 
@@ -173,6 +183,7 @@
 					</div>
 <!--
 								<!--Begin Contact Form-->
+
 								<form id="contact-form" action="php/mailer.php" method="post">
 									<div class="form-group">
 										<label for="name">Name <span class="text-danger">*</span></label>
@@ -209,35 +220,21 @@
 											</div>
 											<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
 										</div>
-
 									</div>
-									<footer>
-										<div class="col-md-12">
-											<ul class="social-network social-circle">
-												<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>
-												</li>
-												<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>
-												</li>
-												<li><a href="" class="icoInstagram" title="Google +"><i class="fa fa-instagram"></i></a></li>
-												<li><a href="https://www.linkedin.com/in/danielle-branch/" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-												</li>
-											</ul>
-
-
-
+									</div>
 											<!-- reCAPTCHA -->
 											<div class="g-recaptcha" data-sitekey="6Ld-rC8UAAAAAE-YzhXVwWZxNF8XyMTBZuuVuR-K"></div>
-										</div>
+
 
 										<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 										<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-								</form>
-											<!--empty area for form error/success output-->
-											<div class="row">
-												<div class="col-xs-12">
-													<div id="output-area"></div>
-												</div>
-											</div>
+
+
+
+<!--								<div class="col-md-12">-->
+
+								</div>
+
 
 
 				<script src="javascript/javascript.js"></script>
