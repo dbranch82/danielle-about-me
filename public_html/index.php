@@ -32,6 +32,8 @@
 				  integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
 				  crossorigin="anonymous"></script>
 		<script src='https://www.google.com/recaptcha/api.js'></script>
+		<!-- jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
 		<!-- jQuery Form, Additional Methods, Validate -->
 		<script type="text/javascript"
 				  src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.min.js"></script>
@@ -76,7 +78,7 @@
 					<p>Our Story</p>
 					<p>We are an Albuquerque company specializing in whatever the hell we do.
 					</p>
-					<p>We work with Php, CSS, Bootstrap, javascript, and Wordpress. </p>
+					<p>We work with Php, CSS, Bootstrap, Javascript, and Wordpress. </p>
 					<p>We partner with other artisans in the albuquerque area to help you vision become a reality.</p>
 					</div>
 				</div>
@@ -84,15 +86,16 @@
 
 
 			<div id="services" class="container">
-				<h2>What we provide</h2>
-				<div class="row form-group product-chooser">
 
+				<div class="row form-group product-chooser">
+					<h2>What we provide</h2>
 
 					<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
 						<div class="product-chooser-item">
 							<img src="images/css.jpg"
 								  class="img-rounded col-xs-4 col-sm-4 col-md-12 col-lg-12" alt="Mobile and Desktop">
 							<div class="col-xs-8 col-sm-8 col-md-12 col-lg-12">
+
 								<span class="title">CSS fixes</span>
 								<span class="description">Regardless of the issue whether it is a font size, color or spacing issue we will look at your css issue and repair it for a one time fee</span>
 								<input type="radio" name="product" value="mobile_desktop" checked="checked">
@@ -153,20 +156,6 @@
 										<br/>
 										<small> Web Designer/VP Networking</small></h3>
 								</div>
-								<div class="col-md-4">
-									<img src="https://unsplash.imgix.net/photo-1422222948315-28aadb7a2cb8?q=75&fm=jpg&s=cfeadbd7a991e58b553bee29a7eeca55"
-										  class="center-block img-quadrata">
-									<h3 class="text-center">Samantha Reds
-										<br/>
-										<small> Content manager</small></h3>
-								</div>
-								<div class="col-md-4">
-									<img src="https://unsplash.imgix.net/photo-1422222948315-28aadb7a2cb8?q=75&fm=jpg&s=cfeadbd7a991e58b553bee29a7eeca55"
-										  class="center-block img-quadrata">
-									<h3 class="text-center">Samantha Reds
-										<br/>
-										<small> Content manager</small></h3>
-								</div>
 							</div>
 						</div>
 					</div>
@@ -176,15 +165,9 @@
 
 				<!--I want this in a box-->
 						<div class="bgimg-3">
-							<div class="container">
-					<div class="section-content">
-						<h1 class="section-header"><span class="content-header wow fadeIn " data-wow-delay="0.2s"data-wow-duration="2s"> </span></h1>
-						<h3>General questions / Project inquires</h3>
-					</div>
-<!--
 								<!--Begin Contact Form-->
 
-								<form id="contact-form" action="php/mailer.php" method="post">
+								<form id="contact-form" action="./php/mailer.php" method="post">
 									<div class="form-group">
 										<label for="name">Name <span class="text-danger">*</span></label>
 										<div class="input-group">
@@ -221,22 +204,21 @@
 											<textarea class="form-control" rows="5" id="message" name="message" placeholder="Message (2000 characters max)"></textarea>
 										</div>
 									</div>
-									</div>
+
 											<!-- reCAPTCHA -->
 											<div class="g-recaptcha" data-sitekey="6Ld-rC8UAAAAAE-YzhXVwWZxNF8XyMTBZuuVuR-K"></div>
 
-
+<div class="buttons">
 										<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
 										<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-
-
+</div>
+								</form>
 
 <!--								<div class="col-md-12">-->
-
+							<div class="row">
+								<div class="col-xs-12">
+									<div id="output-area">
+									</div>
 								</div>
-
-
-
-				<script src="javascript/javascript.js"></script>
 	</body>
 </html>
