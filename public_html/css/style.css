@@ -2,15 +2,10 @@
 trying
  */
 body, html {
-	height: 100%;
-	margin: 0;
-	font: 400 15px/1.8 "Lato", sans-serif;
-	color: #5d48d3;
+	font-family: "Lato", sans-serif;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
-	position: relative;
-	opacity: 0.65;
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -45,7 +40,6 @@ footer {
 
 .bgimg-3 {
 	background-image: url("../images/twitter-292994_1920.jpg");
-	min-height: 400px;
 }
 
 .bgimg-4 {
@@ -61,10 +55,6 @@ footer {
 
 .divstyle1 {
 	background-color: white;
-	color: darkturquoise;
-	text-align: -webkit-center;
-	position: relative;
-	padding: 1%;
 }
 
 .divstyle2 {
@@ -83,14 +73,14 @@ footer {
 	text-align: justify;
 }
 
-.caption {
-	left: 0;
-	padding-top: 10%;
-	width: 100%;
-	text-align: center;
-	color: #000;
-	display: initial;
-}
+/*.caption {*/
+	/*left: 0;*/
+	/*padding-top: 10%;*/
+	/*width: 100%;*/
+	/*text-align: center;*/
+	/*color: #000;*/
+	/*display: initial;*/
+/*}*/
 
 .caption span.border {
 	background-color: transparent;
@@ -103,9 +93,12 @@ footer {
 }
 
 .caption {
-	color: white;
-	font-weight: 900;
+	/*color: white;*/
+	/*font-weight: 900;*/
+	/*align-items: center;*/
+	display: flex;
 	align-items: center;
+	height: 100%;
 
 }
 
@@ -204,12 +197,9 @@ footer {
 /*
 icons
  */
-ul.social-network {
-	list-style: none;
-	margin-left: 0 !important;
-	padding-left: 49%;
-	display: flex;
-}
+/*ul.social-network {*/
+
+/*}*/
 
 /* social icons */
 .social-network a.icoGithub:hover {
@@ -306,19 +296,9 @@ div.product-chooser div.product-chooser-item input{
 	visibility:hidden;
 }
 
-/*=========================
-  Icons
- ================= */
-
-/* footer social icons */
-
-ul.social-network li {
-	display: inline;
-	margin: 0 5px;
-}
 
 .g-recaptcha {
-	padding-top: inherit;
+	/*padding-top: inherit;*/
 }
 
 /* footer social icons */
@@ -413,8 +393,8 @@ div#navbar {
 }
 
 .col-md-12 {
-	padding-top: 7%;
-	padding-bottom: 2%;
+	/*padding-top: 7%;*/
+	/*padding-bottom: 2%;*/
 }
 
 label {
@@ -424,7 +404,7 @@ label {
 
 h3 {
 	text-align: -webkit-center;
-	color: cyan;
+	/*color: cyan;*/
 	font-weight: inherit;
 	padding-top: 5%;
 }
@@ -446,7 +426,7 @@ h1 {
 
 p {
 	font-weight: 400;
-	font-size: 3em;
+	/*font-size: 3em;*/
 }
 
 .img-quadrata {
@@ -457,7 +437,7 @@ p {
 
 h3 {
 	font-weight: 800;
-	color: cyan;
+	/*color: cyan;*/
 	font-size: 2em;
 }
 
@@ -476,43 +456,53 @@ small {
 }
 
 .words {
-	padding-top: inherit;
+	/*padding-top: inherit;*/
 	color: cyan;
-	text-shadow: 2px 2px black;
-	display: inherit;
+	/*text-shadow: 2px 2px black;*/
+	/*display: inherit;*/
+	position: relative;
+	top: -100px;
 }
 .row.form-group.product-chooser {
 	background-color: black;
 	padding-bottom: 8%;
 	padding-top: 5%;
 	color: cyan;
-	text-shadow: 2px 2px #000;
+	/*text-shadow: 2px 2px #000;*/
 }
 
 	.container {
 		width: auto;
 
 	}
-.h2, h2 {
-	font-size: 30px;
-	text-align: -webkit-center;
-	font-weight: 900;
-	color: cyan;
-}
+/*.h2, h2 {*/
+	/*font-size: 30px;*/
+	/*text-align: -webkit-center;*/
+	/*font-weight: 900;*/
+	/*color: cyan;*/
+/*}*/
 form#contact-form {
 	padding-left: 25%;
 	padding-right: 25%;
 	padding-top: 5%;
 }
-.g-recaptcha {
-	padding-left: 25%;
+.g-recaptcha > div {
+	margin: 0 auto;
 }
 .row {
 	margin-right: -15px;
 	margin-left: -15px;
 	margin-top: -10px;
 }
-.buttons {
-	padding-left: 34%;
-	padding-bottom: 8%;
+/*.buttons {*/
+	/*padding-left: 34%;*/
+	/*padding-bottom: 8%;*/
+/*}*/
+
+@media only screen and (max-width: 768px) {
+	.social-network,
+	.navbar-nav {
+		margin: 0;
+		padding-left: 0;
+	}
 }
