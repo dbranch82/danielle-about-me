@@ -55,7 +55,7 @@
 		<div class="bgimg-1">
 			<nav class="navbar navbar-inverse">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="">Our name</a>
+					<a class="navbar-brand" href="">Kaylora</a>
 				</div>
 				<ul class="nav navbar-nav">
 					<li><a href="#services">Services</a></li>
@@ -157,7 +157,7 @@
 				<div class="row">
 
 
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<img src="images/michelle.jpg"
 							  class="img-quadrata center-block">
 						<h3 class="text-center">Michelle Allen
@@ -165,7 +165,7 @@
 							<small> Web Designer/VP Sales</small>
 						</h3>
 					</div>
-					<div class="col-md-4">
+					<div class="col-md-6">
 						<img src="images/betterface.jpg"
 							  class="center-block img-quadrata">
 						<h3 class="text-center">Danielle Branch
