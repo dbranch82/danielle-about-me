@@ -496,4 +496,12 @@ small {
 		margin: 0;
 		padding-left: 0;
 	}
+
+	small {
+		color: black;
+	}
+
+	.text-primary {
+		color: #387ba6;
+	}
 }
