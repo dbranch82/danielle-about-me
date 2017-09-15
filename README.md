@@ -76,3 +76,13 @@ Your overall grade across all of your PWP Milestones is 23/40 points (57.5%).
 - Milestone 2a - 20%: Tier III 30(0.2) = 6
 - Milestone 2b - 10%: Tier IV 40(0.1) = 4
 - Milestone 3 - 50%: Tier I 10(0.5) = 5
+
+### Milestone 3 Feedback Update
+Nice work fixing the issues with your layout. There is still some room for refinement - so keep working at it! :D I've bumped your PWP Milestone 3 grade to [Tier II](https://bootcamp-coders.cnm.edu/projects/personal/rubric/).
+
+Your overall grade across all of your PWP Milestones is 28/40 points (70%).
+
+- Milestone 1 - 20%: Tier IV 40(0.2) = 8
+- Milestone 2a - 20%: Tier III 30(0.2) = 6
+- Milestone 2b - 10%: Tier IV 40(0.1) = 4
+- Milestone 3 - 50%: Tier II 20(0.5) = 10
