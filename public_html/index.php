@@ -64,42 +64,45 @@
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 				</ul>
-				<div class="navbar-right">
-				<ul class="social-network social-circle">
-<!--					<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>-->
-<!--					</li>-->
-<!--					<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>-->
-<!--					</li>-->
-					<li><a href="https://github.com/dbranch82" class="icoGithub" title="Google +"><i class="fa fa-github"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/danielle-branch/" class="icoLinkedin" title="Linkedin"><i
-								class="fa fa-linkedin"></i></a>
-					</li>
-				</ul>
-				</div>
+				<nav class="navbar-right">
+					<ul class="social-network social-circle">
+						<!--					<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a>-->
+						<!--					</li>-->
+						<!--					<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a>-->
+						<!--					</li>-->
+						<li><a href="https://github.com/dbranch82" class="icoGithub" title="Google +"><i
+									class="fa fa-github"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/danielle-branch/" class="icoLinkedin" title="Linkedin"><i
+									class="fa fa-linkedin"></i></a>
+						</li>
+					</ul>
+				</nav>
 			</nav>
-
-
-
 			<div class="caption">
+				<div class="col-xs-12 col-sm-12 col-md-4 col-lg-12">
 				<div class="container">
 					<div class="row">
-						<div class="col-xs-12">
-				<div class="words">
-					<p class="h2">Our Story</p>
-					<p class="h2">We are an Albuquerque company specializing in software development.
-					</p>
-					<p class="h2">We work with Php, CSS, Bootstrap, Javascript, and Wordpress. </p>
-					<p class="h2">We partner with other artisans in the albuquerque area to help you vision become a reality.</p>
+						<div class="col-md-12">
+							<div class="words">
+								<p class="h2">Our Story
+									We are an Albuquerque company specializing in software development.
+									We work with Php, CSS, Bootstrap, Javascript, and Wordpress. We partner with other artisans
+									in the albuquerque area to help you vision become a reality.</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-		</div>
 			</div>
-		</div>
+
+
+
+
 
 
 
 		<div id="services" class="container">
+
 
 			<div class="row form-group product-chooser">
 				<h2>What we provide</h2>
@@ -157,20 +160,36 @@
 				<div class="row">
 
 
-					<div class="col-md-6">
+					<div class="col-md-3">
 						<img src="images/michelle.jpg"
 							  class="img-quadrata center-block">
 						<h3 class="text-center">Michelle Allen
 							<br/>
-							<small> Web Designer/VP Sales</small>
+							<small> Web Designer/Developer</small>
 						</h3>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-3">
 						<img src="images/betterface.jpg"
 							  class="center-block img-quadrata">
 						<h3 class="text-center">Danielle Branch
 							<br/>
-							<small> Web Designer/VP Networking</small>
+							<small> Web Designer/Developer</small>
+						</h3>
+					</div>
+					<div class="col-md-3">
+						<img src="images/Placeholder.png"
+							  class="center-block img-quadrata">
+						<h3 class="text-center">Steve Stone
+							<br/>
+							<small> Web Designer/Developer</small>
+						</h3>
+					</div>
+					<div class="col-md-3">
+						<img src="images/Placeholder.png"
+							  class="center-block img-quadrata">
+						<h3 class="text-center">Chelsea David
+							<br/>
+							<small> Web Designer/Developer</small>
 						</h3>
 					</div>
 				</div>
@@ -184,69 +203,69 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3">
-				<form id="contact-form" action="./php/mailer.php" method="post" novalidate>
-					<div class="form-group">
-						<label for="name">Name <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-addon">
-								<i class="fa fa-user" aria-hidden="true"></i>
+						<form id="contact-form" action="./php/mailer.php" method="post" novalidate>
+							<div class="form-group">
+								<label for="name">Name <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-user" aria-hidden="true"></i>
+									</div>
+									<input type="text" class="form-control" id="name" name="name" placeholder="Name">
+								</div>
 							</div>
-							<input type="text" class="form-control" id="name" name="name" placeholder="Name">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="email">Email <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-addon">
-								<i class="fa fa-envelope" aria-hidden="true"></i>
+							<div class="form-group">
+								<label for="email">Email <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-envelope" aria-hidden="true"></i>
+									</div>
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email">
+								</div>
 							</div>
-							<input type="email" class="form-control" id="email" name="email" placeholder="Email">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="subject">Subject</label>
-						<div class="input-group">
-							<div class="input-group-addon">
-								<i class="fa fa-pencil" aria-hidden="true"></i>
+							<div class="form-group">
+								<label for="subject">Subject</label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-pencil" aria-hidden="true"></i>
+									</div>
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
+								</div>
 							</div>
-							<input type="text" class="form-control" id="subject" name="subject" placeholder="Subject">
-						</div>
-					</div>
-					<div class="form-group">
-						<label for="message">Message <span class="text-danger">*</span></label>
-						<div class="input-group">
-							<div class="input-group-addon">
-								<i class="fa fa-comment" aria-hidden="true"></i>
+							<div class="form-group">
+								<label for="message">Message <span class="text-danger">*</span></label>
+								<div class="input-group">
+									<div class="input-group-addon">
+										<i class="fa fa-comment" aria-hidden="true"></i>
+									</div>
+									<textarea class="form-control" rows="5" id="message" name="message"
+												 placeholder="Message (2000 characters max)"></textarea>
+								</div>
 							</div>
-							<textarea class="form-control" rows="5" id="message" name="message"
-										 placeholder="Message (2000 characters max)"></textarea>
-						</div>
-					</div>
 
-					<!-- reCAPTCHA -->
-					<div class="g-recaptcha" data-sitekey="6Ld-rC8UAAAAAE-YzhXVwWZxNF8XyMTBZuuVuR-K"></div>
+							<!-- reCAPTCHA -->
+							<div class="g-recaptcha" data-sitekey="6Ld-rC8UAAAAAE-YzhXVwWZxNF8XyMTBZuuVuR-K"></div>
 
-					<div class="buttons text-center">
-						<div class=".text-center">
-							<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
-							<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
-						</div>
+							<div class="buttons text-center">
+								<div class=".text-center">
+									<button class="btn btn-success" type="submit"><i class="fa fa-paper-plane"></i> Send</button>
+									<button class="btn btn-warning" type="reset"><i class="fa fa-ban"></i> Reset</button>
+								</div>
+							</div>
+						</form>
 					</div>
-				</form>
 				</div>
-				</div>
 
 
-					<!--								<div class="col-md-12">-->
-					<div class="row">
-						<div class="col-xs-12">
-							<div id="output-area">
-							</div>
+				<!--								<div class="col-md-12">-->
+				<div class="row">
+					<div class="col-xs-12">
+						<div id="output-area">
 						</div>
 					</div>
-
 				</div>
+
 			</div>
+		</div>
 
 	</body>
 </html>
